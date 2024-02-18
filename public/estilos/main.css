@@ -1,0 +1,60 @@
+/* COLORS */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* body{
+
+}
+ */
+/* HEADER */
+header {
+  background: rgb(1, 73, 87);
+  padding: 0.7rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+/* 
+header .logo h1{
+    font-size: 25px;
+    color: rebeccapurple;
+} 
+ */
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul li {
+  list-style: none;
+  padding: 0.5rem;
+}
+
+header li .dropdown li {
+  padding: 0rem;
+}
+
+header nav ul li a {
+  color: #a7a6a6;
+}
+
+header nav ul button {
+  border: none;
+  font-size: 13px;
+  padding: 0.5rem;
+  border-radius: 1px;
+  background: rgba(128, 128, 128, 0.495);
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */

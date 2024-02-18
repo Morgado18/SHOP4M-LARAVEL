@@ -1,0 +1,67 @@
+    
+    <div class="row produtosRow">
+        <!--  -->
+        <div class="card p-0 ">
+            <div class="card-header p-0">
+                <img src="/imgs/produtos/eletronicos/kit_key.jpg" alt="" {{-- height="80" --}}>
+            </div>
+            <div class="card-body">
+
+            </div>
+        </div>
+
+        <!--  -->
+        <div class="card p-0 ">
+            <div class="card-header p-0">
+                <img src="/imgs/produtos/eletronicos/suporte_articulado_laptop.jpg" alt="" {{-- height="80" --}}>
+            </div>
+            <div class="card-body">
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- PRODUTOS EM DESTAQUE -->
+
+    <section class="productDestaq my-3">
+        <h3><!-- Produtos e -->Em destaque</h3>
+
+        <!--  -->
+        <div class="categoria">
+            <sub>
+                <!-- Equipamentos eletrônicos -->
+            </sub>
+            <br><br>
+
+          
+        </div>
+    </section>
+
+    <!--  -->
+
+    <table class="table">
+        <!-- <h3>Jogos em destaque</h3> -->
+        <thead>
+            <tr>
+                <th>ID JOGO</th>
+                <th>NOME JOGO</th>
+                <th>QUANT</th>
+                <th>CLASSIF</th>
+                <TH>CATEGORIA</TH>
+                <TH>FORMATO</TH>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach ($jogos as $jogo)
+            <tr>
+                <td>{{$jogo->id}}</td>
+                <td>{{$jogo->nome}}</td>
+                <td>{{$jogo->quantidade}}</td>
+                <td>{{$jogo->classificacao}}</td>
+                <td>{{$jogo->categoria->nome}}</td>
+                <td>{{$jogo->formato_midia->formato}}</td>
+            </tr>
+        @endforeach  
+        </tbody>
+    </table>

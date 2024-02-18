@@ -1,0 +1,146 @@
+/* COLORS */
+/* INFORMATION USER */
+.information {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding: 1rem;
+  /* background: $bg_main; */
+  background: url("../../imgs/bgmine.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 2px;
+}
+
+.dadosUser {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+
+.img .my_img {
+  border: 5px solid #a7a6a6;
+  border-radius: 100%;
+}
+
+.img .my_img img {
+  transform: scale(0.9);
+}
+
+.information hr {
+  color: #b9b8b8;
+}
+
+/* SCHEDULE  AND NOTIFICATION*/
+.scheduleNotification {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  width: 100%;
+  padding: 1rem;
+  /* border: 1px solid red; */
+}
+
+.schedule, .notification {
+  padding: 1.5rem;
+  margin: 1rem;
+  box-shadow: 2px 4px 8px #e6e6e6;
+  width: 100%;
+}
+
+.schedule h4, .notification h4 {
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+.schedule p, .notification p {
+  font-weight: 100;
+}
+
+.schedule {
+  flex: 60%;
+}
+
+.notification {
+  flex: 40%;
+}
+
+.notification .cadastro {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0.5rem;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.notification .cadastro:hover {
+  background: #b9b8b8;
+}
+
+.notification .cadastro .circle_cad_icon {
+  background: #b9b8b8;
+  padding: 0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notification .cadastro .text_cad {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 100;
+  margin-left: 1rem;
+}
+
+/* EM DESTAQUE */
+.productDestaq {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding: 1rem;
+  /* box-shadow: 2px 4px 8px $color_box_shaddow; */
+}
+
+.productDestaq h3 {
+  font-size: 20px;
+  color: #a7a6a6;
+}
+
+.productDestaq .categoria .card {
+  width: 10rem;
+  margin: 1rem;
+  height: auto;
+}
+
+.productDestaq .categoria .card .card-header img {
+  width: 100%;
+}
+
+.produtosRow {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .scheduleNotification {
+    flex-direction: column;
+    border: none;
+    padding: 0rem;
+  }
+  .schedule, .notification {
+    padding: 1rem;
+    margin: 1rem 0;
+    flex: 100%;
+  }
+}/*# sourceMappingURL=dash.css.map */
