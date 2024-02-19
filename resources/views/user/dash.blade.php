@@ -14,7 +14,7 @@
     <section class="information my-3">
         <div class="dadosUser">
             <div class="avaliacoes">
-                <h6 class="text-light">Avaliações</h6>
+                <h6 class="text-light">Reviews</h6>
                 <div class="stars">
                     <i class="fa-solid fa-star text-warning"></i>
                     <i class="fa-solid fa-star text-warning"></i>
@@ -62,6 +62,20 @@
         </div>
     </section>
 
-    
+    <!-- EM DESTAQUE -->
+
+    <section class="destaq my-3">
+        <h3><!--Em destaque</h3>
+
+        <!--  -->
+        <div class="categoria">
+            <sub>
+                <!--  -->
+            </sub>
+            <br><br>
+
+            
+        </div>
+    </section>
     
 @endsection("content")

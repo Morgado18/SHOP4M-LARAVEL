@@ -106,7 +106,7 @@
 
 /* EM DESTAQUE */
 
-.productDestaq{
+.destaq{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -116,18 +116,18 @@
     /* box-shadow: 2px 4px 8px $color_box_shaddow; */
 }
 
-.productDestaq h3{
+.destaq h3{
     font-size: 20px;
     color: $color_main;
 }
 
-.productDestaq .categoria .card{
+.destaq .categoria .card{
     width: 10rem;
     margin: 1rem;
     height: auto;
 }
 
-.productDestaq .categoria .card .card-header img{
+.destaq .categoria .card .card-header img{
     width: 100%;
 }
 
