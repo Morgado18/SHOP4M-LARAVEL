@@ -37,9 +37,9 @@
                 <i class="fa-solid fa-user"></i>
               </a>
             </li> -->
-            <button disabled class="text-light">
+            <button disabled class="text-muted bg-secondary">
               <span>
-                Admin: Morgado Andrade
+                Morgado Andrade <span class="tex-muted">(admin)</span>
               </span>
             </button>
             <li>

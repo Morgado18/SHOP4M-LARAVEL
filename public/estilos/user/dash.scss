@@ -1,5 +1,8 @@
 
 @import '../colors';
+@import '../display';
+
+$font_weight: 100;
 
 /* INFORMATION USER */
 
@@ -147,5 +150,52 @@
         padding: 1rem;
         margin: 1rem 0;
         flex: 100%;
+    }
+}
+
+/* RESERVAS */
+
+.reservas{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.reservas h4{
+    /* font-size: 20px; */
+    /* color: $color_main; */
+    font-weight: 300;
+
+  /*   font-family: "Kode Mono", monospace;s
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; */
+    
+}
+
+.card_reservs{
+    box-shadow: 2px 4px 14px $color_box_shaddow;
+    padding: 1rem;
+    width: 100%;
+    min-height: 200px;
+    @include display();
+    /* background: url('../../imgs/reception.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    opacity: 1.1;*/
+}
+
+.no_reservations{
+    
+}
+
+.no_reservations h6{
+    font-weight: $font_weight;
+}
+
+@media (max-width: 800px){
+    .reservas{
+        padding: 0rem;
+        margin: 0rem;
     }
 }

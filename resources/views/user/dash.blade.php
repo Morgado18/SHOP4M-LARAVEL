@@ -62,20 +62,26 @@
         </div>
     </section>
 
-    <!-- EM DESTAQUE -->
+    <!-- MY RESRVS -->
 
-    <section class="destaq my-3">
-        <h3><!--Em destaque</h3>
+    <section class="reservas">
+        <h4 class="text-muted">
+            <strong>
+                Reservations
+            </strong>
+        </h4>
 
-        <!--  -->
-        <div class="categoria">
-            <sub>
-                <!--  -->
-            </sub>
-            <br><br>
-
-            
+        <div class="card_reservs my-4">
+            <div class="no_reservations">
+                <center>
+                    <h6>
+                        Nobody reserved a space yet!
+                    </h6>
+                </center>
+            </div>
         </div>
     </section>
+
+    
     
 @endsection("content")

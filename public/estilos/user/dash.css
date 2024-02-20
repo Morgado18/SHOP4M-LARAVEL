@@ -101,7 +101,7 @@
 }
 
 /* EM DESTAQUE */
-.productDestaq {
+.destaq {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -111,18 +111,18 @@
   /* box-shadow: 2px 4px 8px $color_box_shaddow; */
 }
 
-.productDestaq h3 {
+.destaq h3 {
   font-size: 20px;
   color: #a7a6a6;
 }
 
-.productDestaq .categoria .card {
+.destaq .categoria .card {
   width: 10rem;
   margin: 1rem;
   height: auto;
 }
 
-.productDestaq .categoria .card .card-header img {
+.destaq .categoria .card .card-header img {
   width: 100%;
 }
 
@@ -142,5 +142,46 @@
     padding: 1rem;
     margin: 1rem 0;
     flex: 100%;
+  }
+}
+/* RESERVAS */
+.reservas {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.reservas h4 {
+  /* font-size: 20px; */
+  /* color: $color_main; */
+  font-weight: 300;
+  /*   font-family: "Kode Mono", monospace;s
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; */
+}
+
+.card_reservs {
+  box-shadow: 2px 4px 14px #e6e6e6;
+  padding: 1rem;
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: url('../../imgs/reception.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  opacity: 1.1;*/
+}
+
+.no_reservations h6 {
+  font-weight: 100;
+}
+
+@media (max-width: 800px) {
+  .reservas {
+    padding: 0rem;
+    margin: 0rem;
   }
 }/*# sourceMappingURL=dash.css.map */
